@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spectrum Shift</title>
+  <link rel="icon" type="image/png" href="/assets/img/color-wheel-png-1-1230576128 (2).png" />
+  <!-- <link rel="manifest" href="/site.webmanifest"> -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="/assets/img/Spectrum_Shift_Logo.svg" alt="" />
+      <ul class="nav-links">
+        <button id="export-pdf">Export</button>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="view-modal"></div>
+    <section class="hero">
+      <div class="container" id="pallete-holder">
+        <div class="pallete">
+          <p class="color-info">333333</p>
+          <div class="pallete-hex">
+            <div class="hex-code">
+              <span class="code-title">Hex</span>
+              <span class="pallete-hex-code">123</span>
+            </div>
+            <div class="rgb-code">
+              <span class="code-title">rgb</span>
+              <span class="pallete-rgb-code"></span>
+            </div>
+            <div class="hsv-code">
+              <span class="code-title">hsv</span>
+              <span class="pallete-hsv-code"></span>
+            </div>
+          </div>
+          <!-- <div class="icons">
+                        <i class='bx bx-copy'></i>
+                    </div> -->
+        </div>
+        <div class="pallete">
+          <p class="color-info">333333</p>
+          <div class="pallete-hex">
+            <div class="hex-code">
+              <span class="code-title">Hex</span>
+              <span class="pallete-hex-code"></span>
+            </div>
+            <div class="rgb-code">
+              <span class="code-title">rgb</span>
+              <span class="pallete-rgb-code"></span>
+            </div>
+            <div class="hsv-code">
+              <span class="code-title">hsv</span>
+              <span class="pallete-hsv-code"></span>
+            </div>
+          </div>
+        </div>
+        <div class="pallete">
+          <p class="color-info">333333</p>
+          <div class="pallete-hex">
+            <div class="hex-code">
+              <span class="code-title">Hex</span>
+              <span class="pallete-hex-code"></span>
+            </div>
+            <div class="rgb-code">
+              <span class="code-title">rgb</span>
+              <span class="pallete-rgb-code"></span>
+            </div>
+            <div class="hsv-code">
+              <span class="code-title">hsv</span>
+              <span class="pallete-hsv-code"></span>
+            </div>
+          </div>
+        </div>
+        <div class="pallete">
+          <p class="color-info">333333</p>
+          <div class="pallete-hex">
+            <div class="hex-code">
+              <span class="code-title">Hex</span>
+              <span class="pallete-hex-code"></span>
+            </div>
+            <div class="rgb-code">
+              <span class="code-title">rgb</span>
+              <span class="pallete-rgb-code"></span>
+            </div>
+            <div class="hsv-code">
+              <span class="code-title">hsv</span>
+              <span class="pallete-hsv-code"></span>
+            </div>
+          </div>
+        </div>
+        <div class="pallete">
+          <p class="color-info">333333</p>
+          <div class="pallete-hex">
+            <div class="hex-code">
+              <span class="code-title">Hex</span>
+              <span class="pallete-hex-code"></span>
+            </div>
+            <div class="rgb-code">
+              <span class="code-title">rgb</span>
+              <span class="pallete-rgb-code"></span>
+            </div>
+            <div class="hsv-code">
+              <span class="code-title">hsv</span>
+              <span class="pallete-hsv-code"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="sub-header">
+      <p id="suggest">Press the spacebar to generate color pallete!</p>
+    </div>
+  </footer>
+  <div class="alert-box" id="alert-box">
+    <p id="copy-alert">Copied to Clipboard !</p>
+  </div>
+</body>
+
+</html>
+<script src="/assets/js/script.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.1/html2pdf.bundle.min.js"
+  integrity="sha512-vDKWohFHe2vkVWXHp3tKvIxxXg0pJxeid5eo+UjdjME3DBFBn2F8yWOE0XmiFcFbXxrEOR1JriWEno5Ckpn15A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"
+  integrity="sha512-wUa0ktp10dgVVhWdRVfcUO4vHS0ryT42WOEcXjVVF2+2rcYBKTY7Yx7JCEzjWgPV+rj2EDUr8TwsoWF6IoIOPg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
